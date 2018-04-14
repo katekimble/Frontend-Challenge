@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Reset ends here */
+
+  *, ::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SF Pro Text", "Avenir", Helvetica, sans-serif;
+  color: #333;
+}
+
+.container {
+	background-color: #fff;
+	max-width: 420px;
+}
+
+.status-bar img {
+  width: 100%;
+	padding-bottom: .25em;
+}
+
+nav {
+  background-color: #1e808f;
+  color: white;
+  text-align: center;
+  position: sticky;
+  width: 100%;
+	padding-bottom: 1em;
+}
+
+h1 {
+  font-size: 1.25em;
+	font-weight: lighter;
+}
+
+h2 {
+	font-size: 1em;
+	font-weight: lighter;
+	line-height: 1.5em;
+}
+
+.white-arrow img {
+  max-width: 25px;
+	vertical-align: middle;
+	float:left;
+	margin-left: .1em;
+}
+
+.star {
+	max-width: 25px;
+	display: inline;
+	vertical-align: middle;
+}
+
+.map img {
+  max-width: 100%;
+  border-bottom: 1px solid #333;
+}
+
+.route-information {
+  padding: 4%;
+  border-bottom: 1px solid #333;
+	position: relative;
+	height: 75%
+}
+
+.route-information:hover {
+	background-color: #e1f7ff;
+}
+
+.content {
+  padding-left: 90px;
+}
+
+.due-bus {
+	font-size: 1.5em;
+  background-color: #d54200;
+  border-radius: 10%;
+  color: white;
+  padding: 4%;
+  float: left;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.bus-number {
+	font-size: 1.5em;
+  background-color: #1e808f;
+  border-radius: 10%;
+  color: white;
+  padding: 4%;
+  float: left;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.gray-arrow img {
+  max-width: 25px;
+	display: inline;
+	vertical-align: middle;
+	float: right;
+}
